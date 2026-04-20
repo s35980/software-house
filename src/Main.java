@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Pracownik p1 = new Pracownik("TEST-99", "Adam", "Testowy", 1000);
         Pracownik p2 = new Pracownik("TEST-99", "Ewa", "Nowak", 2000);
-        Pracownik p3 = new Pracownik("TEST-00", "Adam", "Kowalski", 1000);
+        Pracownik p3 = new Programista("E-101", "Anna", "Maj", 12000.0, "Java", 4);
 
         System.out.println(p1);
         System.out.println(p2);
