@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Pracownik p1 = new Pracownik("TEST-99", "Adam", "Testowy", 1000);
-        Pracownik p2 = new Pracownik("TEST-99", "Ewa", "Nowak", 2000);
-        Pracownik p3 = new Programista("E-101", "Anna", "Maj", 12000.0, "Java", 4);
+        Pracownik p1 = new Programista("E-101", "Anna", "Maj", 12000.0, "Java", 4);
+        Pracownik p2 = new Tester("E-201", "Piotr", "Lis", 9800.0, true, 25);
+        Pracownik p3 = new Programista("E-102", "Karol", "Wojcik", 11500.0, "Kotlin", 3);
 
         System.out.println(p1);
         System.out.println(p2);
